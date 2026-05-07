@@ -46,3 +46,34 @@
 #         e=mid-1
 # print(is_found)
 
+# problem: first occurrence
+# arr=[1,2,2,2,3,4]
+# target=2
+# s=0
+# e=len(arr)-1
+# while(s<=e):
+#     mid=(s+e)//2
+#     if(arr[mid]==target):
+#         ans=mid
+#         e=mid-1
+#     elif(arr[mid]<target):
+#         s=mid+1
+#     else:
+#         e=mid-1
+# print(ans)
+
+# problem: last occurrence
+# arr=[1,2,2,2,3,4]
+# target=2
+# s=0
+# e=len(arr)-1
+# while(s<=e):
+#     mid=(s+e)//2
+#     if(arr[mid]==target):
+#         ans=mid
+#         s=mid+1
+#     elif(arr[mid]<target):
+#         s=mid+1
+#     else:
+#         e=mid-1
+# print(ans)
